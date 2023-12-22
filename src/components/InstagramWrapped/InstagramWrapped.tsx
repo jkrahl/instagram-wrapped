@@ -1,4 +1,4 @@
-import InstagramData from '../../lib/instagram-data';
+import InstagramData from '../../../packages/instagram-data';
 
 function InstagramWrapped(props: { data: InstagramData }) {
     const { data } = props;

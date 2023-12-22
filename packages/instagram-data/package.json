@@ -1,0 +1,27 @@
+{
+  "name": "instagram-data",
+  "version": "1.0.1",
+  "description": "Wrapper for Instagram GDPR data export",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["instagram", "data", "export", "gdpr", "wrapper"],
+  "author": "Jan Krahl <jan@krahl.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^5.1.4",
+    "jasmine-core": "^5.1.1",
+    "karma": "^6.4.2",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-webpack": "^5.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "files": ["dist"]
+}

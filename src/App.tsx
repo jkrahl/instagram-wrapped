@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import InstagramData from './lib/instagram-data';
+import InstagramData from '../packages/instagram-data/dist';
 import InstagramWrapped from './components/InstagramWrapped/InstagramWrapped';
 import FileRequestPage from './components/FileRequestPage/FileRequestPage';
 
